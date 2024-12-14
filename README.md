@@ -88,16 +88,16 @@ The third exercise focused on identifying the day with the highest **Close** pri
 
 | Dataset  | Highest Close Price | Date       |
 |----------|---------------------|------------|
-| BRK-A    | 715910.0           | 2024-09-03 |
-| DNUT     | 21.0               | 2021-07-01 |
-| DPZ      | 564.33             | 2021-12-31 |
-| LKNCY    | 50.02              | 2020-01-17 |
-| MCD      | 300.53             | 2024-01-19 |
-| PZZA     | 140.01             | 2021-11-04 |
-| QSR      | 82.75              | 2024-03-13 |
-| SBUX     | 126.06             | 2021-07-26 |
-| WEN      | 32.0               | 1993-09-13 |
-| YUM      | 143.19             | 2024-04-29 |
+| BRK-A    |      715910.0       | 2024-09-03 |
+| DNUT     |        21.0         | 2021-07-01 |
+| DPZ      |       564.33        | 2021-12-31 |
+| LKNCY    |        50.02        | 2020-01-17 |
+| MCD      |       300.53        | 2024-01-19 |
+| PZZA     |       140.01        | 2021-11-04 |
+| QSR      |        82.75        | 2024-03-13 |
+| SBUX     |       126.06        | 2021-07-26 |
+| WEN      |        32.0         | 1993-09-13 |
+| YUM      |       143.19        | 2024-04-29 |
 
 **Insights**:
 - The datasets demonstrate consistency, as all files contain the same 7 columns.
@@ -190,16 +190,16 @@ This exercise aimed to investigate the relationship between trading volume and t
 
 | Company    | Correlation |
 |------------|-------------|
-| BRK-A.csv  | 0      |
-| DNUT.csv   | 0.15        |
-| DPZ.csv    | 0.01        |
-| LKNCY.csv  | -0.08       |
-| MCD.csv    | 0.02        |
-| PZZA.csv   | -0.11       |
-| QSR.csv    | 0.02        |
-| SBUX.csv   | -0.31       |
-| WEN.csv    | -0.08       |
-| YUM.csv    | **-0.39**   |
+| BRK-A.csv  |    -0.14    |
+| DNUT.csv   |     0.15    |
+| DPZ.csv    |     0.01    |
+| LKNCY.csv  |    -0.08    |
+| MCD.csv    |     0.02    |
+| PZZA.csv   |    -0.11    |
+| QSR.csv    |     0.02    |
+| SBUX.csv   |    -0.31    |
+| WEN.csv    |    -0.08    |
+| YUM.csv    |  **-0.39**  |
 
 *YUM was selected due to its highest absolute correlation value (-0.39), indicating the strongest relationship between trading volume and closing price.*
 
