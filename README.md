@@ -350,24 +350,29 @@ bash
    pip install pandas
 
 2. **NumPy**: For mathematical operations and handling multidimensional arrays.
+
 bash
-pip install numpy
+  pip install numpy
 
 3. **Matplotlib**: For creating visualizations and plots.
+
 bash
-pip install matplotlib
+  pip install matplotlib
 
 4. **Seaborn**: For advanced statistical plots and style customization (optional).
+
 bash
-pip install seaborn
+  pip install seaborn
 
 5. **pmdarima**: For automated ARIMA modeling and backcasting.
-bash
-pip install statsmodels
 
-6. **pip install pmdarima**
+bash
+  pip install statsmodels
+
+6. **pip install pmdarima**: For automated ARIMA modeling and backcasting.
+
 bash 
-pip install pmdarima
+  pip install pmdarima
 
 **7. Datetime**: For handling date and time data (no installation required, part of Python's standard library).
 
