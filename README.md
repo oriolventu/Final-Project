@@ -368,7 +368,7 @@ bash
 bash
   pip install seaborn
 
-5. **pmdarima**: For automated ARIMA modeling and backcasting.
+5. **statsmodel**: For automated ARIMA modeling and backcasting.
 
 bash
   pip install statsmodels
