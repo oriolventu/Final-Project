@@ -190,31 +190,31 @@ This exercise aimed to investigate the relationship between trading volume and t
 
 | Company    | Correlation |
 |------------|-------------|
-| BRK-A.csv  | 0.14        |
-| DNUT.csv   | 0.15        |
-| DPZ.csv    | 0.01        |
-| LKNCY.csv  | -0.08       |
-| MCD.csv    | 0.02        |
-| PZZA.csv   | -0.11       |
-| QSR.csv    | 0.02        |
-| SBUX.csv   | -0.31       |
+| BRK-A.csv  | -0.25       |
+| DNUT.csv   | -0.04       |
+| DPZ.csv    | 0.05        |
+| LKNCY.csv  | 0.28        |
+| MCD.csv    | 0.04        |
+| PZZA.csv   | -0.14       |
+| QSR.csv    | 0.08        |
+| SBUX.csv   | -0.45       |
 | WEN.csv    | -0.08       |
-| YUM.csv    | **-0.39**   |
+| YUM.csv    | **-0.47**   |
 
-*YUM was selected due to its highest absolute correlation value (-0.39), indicating the strongest relationship between trading volume and closing price.*
+*YUM was selected due to its highest absolute correlation value (-0.47), indicating the strongest relationship between trading volume and closing price.*
 
 **Key Results**:
-- YUM showed the highest correlation of **0.39** between trading volume and closing price.
+- YUM showed the highest correlation of **0.47** between trading volume and closing price.
 - The scatter plot highlighted clustering at lower trading volumes, with occasional spikes corresponding to a wide range of closing prices.
 
 **Results & Visualization**:
 
 Below is the scatter plot representing the relationship between trading volume and closing price for YUM:
 
-![Volume – Close Price Relation](Images/Exercise_7.png)
+![Volume – Close Price Relation](Images/Exercise_7.jpeg)
 
 **Insights**:
-The correlation of 0.39 between trading volume and closing price for YUM suggests a moderate relationship. While not strong, it indicates that periods of high trading activity may be linked to significant price movements. The scatter plot reveals that most trading volumes cluster at lower levels, with occasional spikes. These spikes are associated with a wide range of closing prices, hinting at extraordinary market events driving both volume and price simultaneously. 
+The correlation of 0.47 between trading volume and closing price for YUM suggests a moderate relationship. While not strong, it indicates that periods of high trading activity may be linked to significant price movements. The scatter plot reveals that most trading volumes cluster at lower levels, with occasional spikes. These spikes are associated with a wide range of closing prices, hinting at extraordinary market events driving both volume and price simultaneously. 
 
 Historical context suggests that events like **YUM China’s spin-off (2016)** or market disruptions such as the **COVID-19 pandemic (2020)** may have contributed to these trading anomalies. Understanding this pattern helps detect shifts in investor behavior during high-volume periods.
 
@@ -234,16 +234,16 @@ This exercise aimed to identify the month with the highest total trading volume 
 
 | Company | Month          | Total Volume   |
 |---------|----------------|----------------|
-| BRK-A   | February 2010  | 10,232,800     |
-| DNUT    | July 2021      | 90,072,000     |
-| DPZ     | May 2012       | 32,425,600     |
-| LKNCY   | June 2020      | 1,315,835,800  |
-| MCD     | October 2006   | 419,618,400    |
-| PZZA    | December 1999  | 130,818,800    |
-| QSR     | March 2020     | 110,310,400    |
-| SBUX    | July 1999      | 1,210,239,200  |
-| WEN     | June 2009      | 282,283,400    |
-| YUM     | October 2015   | 218,777,316    |
+| BRK-A   | October 2008   | 2,821,350      |
+| DNUT    | April 2024     | 56,887,750     |
+| DPZ     | August 2011	   | 26,953,250     |
+| LKNCY   | January 2020   | 198,657,000    |
+| MCD     | October 2008	 | 282,264,600    |
+| PZZA    | August 2018	   | 37,345,150     |
+| QSR     | March 2020     | 78,798,500     |
+| SBUX    | January 2008   | 782,555,000    |
+| WEN     | June 2009      | 175,335,200    |
+| YUM     | October 2009   | 175,288,047    |
 
 **Insights**:
 1. The highest trading volume (1.3 billion) occurred during Luckin Coffee’s accounting fraud scandal and the post-pandemic recovery in China, driving significant market activity.
@@ -324,7 +324,7 @@ This exercise focused on calculating and analyzing the daily spread (difference 
 **Figure 1: Daily Spread Across All Companies**
 Below is a visualization of daily spreads for all companies over their trading periods. Each graph highlights the general volatility and trends in daily spreads specific to each company.
 
-![Daily Spread Across All Companies](Images/Exercise_10_All_graphs.jpeg)
+![Daily Spread Across All Companies](Images/Exercise_10_All_graphs.png)
 
 #### **Figure 2: Log-Scaled Average Spread**
 This bar chart presents the average spread for each company on a logarithmic scale, making it easier to compare companies with vastly different spread magnitudes.
