@@ -211,12 +211,15 @@ This exercise aimed to investigate the relationship between trading volume and t
 
 Below is the scatter plot representing the relationship between trading volume and closing price for YUM:
 
-![Volume – Close Price Relation](Images/Exercise_7.jpeg)
+![Volume – Close Price Relation](Images/Ex_7.png)
 
 **Insights**:
-The correlation of 0.47 between trading volume and closing price for YUM suggests a moderate relationship. While not strong, it indicates that periods of high trading activity may be linked to significant price movements. The scatter plot reveals that most trading volumes cluster at lower levels, with occasional spikes. These spikes are associated with a wide range of closing prices, hinting at extraordinary market events driving both volume and price simultaneously. 
 
-Historical context suggests that events like **YUM China’s spin-off (2016)** or market disruptions such as the **COVID-19 pandemic (2020)** may have contributed to these trading anomalies. Understanding this pattern helps detect shifts in investor behavior during high-volume periods.
+- The correlation of 0.47 between trading volume and closing price for YUM shows a moderate relationship, with higher trading activity often linked to notable price changes.  
+- Most trading occurs at lower volumes, but occasional spikes reveal key moments of market activity tied to price fluctuations.  
+- These spikes may reflect significant events like YUM China’s spin-off in 2016, the COVID-19 pandemic in 2020, or strategic expansions.  
+- At higher trading volumes, prices tend to show greater variability, suggesting increased volatility during those periods.  
+
 
 -----
 
@@ -236,20 +239,22 @@ This exercise aimed to identify the month with the highest total trading volume 
 |---------|----------------|----------------|
 | BRK-A   | October 2008   | 2,821,350      |
 | DNUT    | April 2024     | 56,887,750     |
-| DPZ     | August 2011	   | 26,953,250     |
+| DPZ     | August 2011    | 26,953,250     |
 | LKNCY   | January 2020   | 198,657,000    |
-| MCD     | October 2008	 | 282,264,600    |
-| PZZA    | August 2018	   | 37,345,150     |
+| MCD     | October 2008   | 282,264,600    |
+| PZZA    | August 2018    | 37,345,150     |
 | QSR     | March 2020     | 78,798,500     |
 | SBUX    | January 2008   | 782,555,000    |
 | WEN     | June 2009      | 175,335,200    |
 | YUM     | October 2009   | 175,288,047    |
 
 **Insights**:
-1. The highest trading volume (1.3 billion) occurred during Luckin Coffee’s accounting fraud scandal and the post-pandemic recovery in China, driving significant market activity.
-2. Trading spikes align with major crises, like the **financial crisis (2009)** for WEN and **COVID-19 (2020)** for QSR, highlighting the macroeconomic impacts on trading behavior.
-3. Milestones such as Starbucks’ global expansion (1999) and YUM’s spinoff announcement (2015) drove high trading activity, reflecting investor focus during pivotal moments.
-4. Trading volume spiked during Y2K market activity, reflecting heightened investor positioning amid millennium-driven volatility.
+1. **BRK-A (October 2008)** and **MCD (October 2008)** recorded surges in trading volume during the 2008 financial crisis, reflecting investor confidence in resilient business models amid market volatility.
+2. **LKNCY (January 2020)** saw heightened trading during its accounting fraud fallout, coinciding with the early COVID-19 pandemic, as investors reacted to uncertainty and corporate mismanagement.
+3. **QSR (March 2020)** demonstrated a spike in activity during the pandemic's onset, driven by investor interest in its franchise and delivery-focused business model.
+4. **SBUX (January 2008)** recorded peak trading volume before the financial crisis, reflecting investor optimism about its growth strategy and global expansion despite economic uncertainty.
+5. **PZZA (August 2018)** and **YUM (October 2009)** highlight investor interest in fast-food sector growth and international market expansion, emphasizing the role of strategic moves in driving trading activity.
+
 
 These results emphasize how company-specific events and broader economic trends influence trading activity, offering valuable context for analyzing market behavior during high-volume periods.
 
