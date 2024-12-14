@@ -2,7 +2,7 @@
 
 This repository contains the final project of "Python for Data Science" course completed during our Master's degree in Business Analytics at ESADE Business School.
 
-# **Fast Food Companies: A Deep Performance Analysis**
+# **Fast Food Companies: A Deep Performance Analysis** 
 
 ## **Project Overview**
 This project aims to analyze the performance of 10 major fast food companies in the stock market over the years. To achieve this, historical stock price data from 10 companies was processed and analyzed: Berkshire Hathaway Inc., Krispy Kreme, Domino’s Pizza, Luckin Coffee, McDonald’s, Papa John’s, Restaurant Brands, Starbucks, Wendy’s, and Yum! Brands. The analysis includes data cleaning, visualization creation, and the extraction of insights to assess the market behavior of these companies.
