@@ -190,16 +190,16 @@ This exercise aimed to investigate the relationship between trading volume and t
 
 | Company    | Correlation |
 |------------|-------------|
-| BRK-A.csv  |    -0.14    |
-| DNUT.csv   |     0.15    |
-| DPZ.csv    |     0.01    |
-| LKNCY.csv  |    -0.08    |
-| MCD.csv    |     0.02    |
-| PZZA.csv   |    -0.11    |
-| QSR.csv    |     0.02    |
-| SBUX.csv   |    -0.31    |
-| WEN.csv    |    -0.08    |
-| YUM.csv    |  **-0.39**  |
+| BRK-A.csv  | 0.14        |
+| DNUT.csv   | 0.15        |
+| DPZ.csv    | 0.01        |
+| LKNCY.csv  | -0.08       |
+| MCD.csv    | 0.02        |
+| PZZA.csv   | -0.11       |
+| QSR.csv    | 0.02        |
+| SBUX.csv   | -0.31       |
+| WEN.csv    | -0.08       |
+| YUM.csv    | **-0.39**   |
 
 *YUM was selected due to its highest absolute correlation value (-0.39), indicating the strongest relationship between trading volume and closing price.*
 
