@@ -275,7 +275,7 @@ The dataset was aligned on the `Year` column, with missing values imputed using 
 - Removes seasonality to focus on underlying trends.
 
 **Additional Adjustments**:
-- Ensured a non-negative floor for predictions to maintain data validity.
+- Ensured a non-negative floor for predictions to maintain data validity before the 1st available year with original data.
 - Applied a smoothing mechanism to mitigate issues from sparse or volatile data.
 
 **Results & Visualizations**:
@@ -307,7 +307,7 @@ This exercise focused on calculating and analyzing the daily spread (difference 
 
 1. **Daily Spread Calculation**:
    - A new column `Spread` was created for each company's dataset to compute the daily spread as the difference between `High` and `Low` prices.
-   - A validation check was implemented to ensure that `High` > `Low`. If not, the spread was set to `0`.
+   - A validation check was implemented to ensure that `High` > `Low`, by putting a modulus on 'High'. However if `High` < `Low` still, the spread was set to `0`.
 
 2. **Data Visualization**:
    - Plotted individual line graphs for all companies showing the daily spread over time. This provides a detailed view of price fluctuations across their respective trading periods.
