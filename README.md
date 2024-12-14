@@ -339,3 +339,40 @@ This bar chart presents the average spread for each company on a logarithmic sca
 - The use of a logarithmic scale effectively highlights the differences in average spread magnitudes across companies while normalizing BRK-A's influence.
 
 These results underline how company-specific factors such as stock price, growth potential, and investor behavior influence daily price spreads. The findings provide a deeper understanding of market volatility for individual stocks. 
+
+-----
+
+### **Required Libraries**
+
+1. **Pandas**: For data manipulation and analysis.
+   
+bash
+   pip install pandas
+
+2. **NumPy**: For mathematical operations and handling multidimensional arrays.
+bash
+pip install numpy
+
+3. **Matplotlib**: For creating visualizations and plots.
+bash
+pip install matplotlib
+
+4. **Seaborn**: For advanced statistical plots and style customization (optional).
+bash
+pip install seaborn
+
+5. **pmdarima**: For automated ARIMA modeling and backcasting.
+bash
+pip install statsmodels
+
+6. **pip install pmdarima**
+bash 
+pip install pmdarima
+
+**7. Datetime**: For handling date and time data (no installation required, part of Python's standard library).
+
+**8. Math**: For mathematical calculations like logarithms (no installation required, part of Python's standard library).
+
+**9. Warnings**: For managing warnings during script execution (no installation required, part of Python's standard library).
+
+**10. OS**: For handling file paths and system-level 
