@@ -13,7 +13,7 @@ The main goal of this analysis is to tackle the various exercises designed to st
 ## **Data Preprocessing**
 Before beginning the analysis, data preprocessing was performed to ensure that the results were accurate and meaningful:
 
-- **Outlier Removal**: Outliers in the "Close" column were identified and removed using the Interquartile Range (IQR) method.
+- **Outlier Removal**: Outliers were identified and removed using the Interquartile Range (IQR) method.
 - **Handling Missing Values**: Missing values were imputed using linear interpolation and forward/backward fill methods to ensure continuity in the dataset.
 - **Chronological Sorting**: The data was sorted based on the "Date" column to facilitate time-series analysis.
 
