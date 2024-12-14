@@ -373,11 +373,12 @@ bash
 
 bash 
   pip install pmdarima
+  
 
-**7. Datetime**: For handling date and time data (no installation required, part of Python's standard library).
+  **7. Datetime**: For handling date and time data (no installation required, part of Python's standard library).
 
-**8. Math**: For mathematical calculations like logarithms (no installation required, part of Python's standard library).
+  **8. Math**: For mathematical calculations like logarithms (no installation required, part of Python's standard library).
 
-**9. Warnings**: For managing warnings during script execution (no installation required, part of Python's standard library).
+  **9. Warnings**: For managing warnings during script execution (no installation required, part of Python's standard library).
 
-**10. OS**: For handling file paths and system-level 
+  **10. OS**: For handling file paths and system-level 
