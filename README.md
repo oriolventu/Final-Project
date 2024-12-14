@@ -324,12 +324,12 @@ This exercise focused on calculating and analyzing the daily spread (difference 
 **Figure 1: Daily Spread Across All Companies**
 Below is a visualization of daily spreads for all companies over their trading periods. Each graph highlights the general volatility and trends in daily spreads specific to each company.
 
-![Daily Spread Across All Companies](Exercise_10_All_graphs.jpeg)
+![Daily Spread Across All Companies](Images/Exercise_10_All_graphs.jpeg)
 
 #### **Figure 2: Log-Scaled Average Spread**
 This bar chart presents the average spread for each company on a logarithmic scale, making it easier to compare companies with vastly different spread magnitudes.
 
-![Log-Scaled Average Spread](Ex_10_Log-Scaled_Graph.png)
+![Log-Scaled Average Spread](Images/Ex_10_Log-Scaled_Graph.png)
 
 **Insights**
 
