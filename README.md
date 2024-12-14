@@ -342,6 +342,10 @@ These results underline how company-specific factors such as stock price, growth
 
 -----
 
+## **Dependencies**
+
+Below is a list of all the Python libraries required to execute the analysis in this project. Please ensure these dependencies are installed in your Python environment before running the scripts.
+
 ### **Required Libraries**
 
 1. **Pandas**: For data manipulation and analysis.
@@ -373,6 +377,7 @@ bash
 
 bash 
   pip install pmdarima
+
   
 
   **7. Datetime**: For handling date and time data (no installation required, part of Python's standard library).
